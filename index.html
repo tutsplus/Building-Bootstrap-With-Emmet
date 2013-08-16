@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Building Bootstrap with Emmet</title>
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="dist/css/bootstrap.css" />
+
+</head>
+<body>
+
+	<div class="container">
+		
+		<header>
+			<h1><a href="index.html">This is a landing page</a></h1>
+			<p class="lead">This is a description of this page.</p>
+		</header>
+
+		<div class="navbar">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#features">Product features</a></li>
+				<li><a href="#testimonials">Testimonials</a></li>
+				<li><a href="#order">Order now!</a></li>
+			</ul>
+		</div>
+
+		<div class="carousel slide" id="carousel-example">
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example" data-slide-to="1"></li>
+				<li data-target="#carousel-example" data-slide-to="2"></li>
+			</ol>
+
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="http://lorempixel.com/1170/300" alt="Image">
+					<div class="carousel-caption">This is a caption</div>
+				</div>
+				<div class="item">
+					<img src="http://lorempixel.com/1170/300/people" alt="Image">
+					<div class="carousel-caption">This is a caption 2</div>
+				</div>
+				<div class="item">
+					<img src="http://lorempixel.com/1170/300/business" alt="Image">
+					<div class="carousel-caption">This is a caption 3</div>
+				</div>
+			</div>
+
+			<a href="#carousel-example" class="left carousel-control" data-slide="prev">
+				<span class="icon-prev"></span>
+			</a>
+			<a href="#carousel-example" class="right carousel-control" data-slide="next">
+				<span class="icon-next"></span>
+			</a>
+		</div>
+
+		<section id="features">
+			<h3>Product Features</h3>
+			<p>Here's why you should really buy this product.</p>
+			<hr>
+
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="media">
+						<a href="#" class="pull-left">
+							<img src="http://lorempixel.com/64/64" alt="Image">
+						</a>
+						<div class="media-body">
+							<h4 class="media-heading">Feature name</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, aliquam.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="media">
+						<a href="#" class="pull-left">
+							<img src="http://lorempixel.com/64/64" alt="Image">
+						</a>
+						<div class="media-body">
+							<h4 class="media-heading">Feature name</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, aliquam.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="media">
+						<a href="#" class="pull-left">
+							<img src="http://lorempixel.com/64/64" alt="Image">
+						</a>
+						<div class="media-body">
+							<h4 class="media-heading">Feature name</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, aliquam.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<hr>
+
+		<section id="testimonials">
+			<div class="panel">
+				<div class="panel-heading">A few words from our customers.</div>
+				<div class="row">
+					<div class="col-lg-6">
+						<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, unde?<small>John from<cite>Source</cite></small></blockquote>
+					</div>
+					<div class="col-lg-6">
+						<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, eaque.<small>John from<cite>Source</cite></small></blockquote>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="order">
+			<div class="well well-lg">
+				<h3 class="text-center">Order now!</h3>
+				<p class="text-center">Receive a great bonus.</p>
+				<p class="text-center">
+					<a href="#" class="btn btn-primary">Place order &rarr;</a>
+				</p>
+			</div>
+		</section>
+
+	</div>
+	
+
+	<!-- JavaScript -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="dist/js/bootstrap.js"></script>
+
+</body>
+</html>
